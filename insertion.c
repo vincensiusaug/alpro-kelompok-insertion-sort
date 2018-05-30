@@ -10,6 +10,7 @@ int user_input_n_jumlah(){
     }
     return n_jumlah;
 }
+
 // untuk memasukan nilai kedalam array
 void user_input_n(int arr[], int n_jumlah){
     if (n_jumlah>0){
