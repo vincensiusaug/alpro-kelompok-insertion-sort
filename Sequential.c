@@ -31,7 +31,6 @@ void main(){
     int amount = 5, n = 9;
     int arr[amount];
     user_input_n(arr, amount);
-
     int hasil = sequential(arr, n, amount, 0);
 
     if (hasil == -1){
