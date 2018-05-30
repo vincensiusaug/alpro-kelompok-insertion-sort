@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 int user_input_amount(){
-
+    int n;
+    printf ("Masukan jumlah data");
+    scanf ("%d",&n);
+    return n;
 }
 
 int user_input_n(int arr[], int amount){
@@ -28,7 +31,8 @@ int sequential(int arr[], int n, int amount, int indeks){
 }
 
 void main(){
-    int amount = 5, n = 9;
+    int amount = user_input_amount();
+    int n = 9;
     int arr[amount];
     user_input_n(arr, amount);
 
