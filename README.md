@@ -10,3 +10,4 @@ Elias
 
 pencarian berurutan  
 pencarian bagi dua  
+insertion sort
